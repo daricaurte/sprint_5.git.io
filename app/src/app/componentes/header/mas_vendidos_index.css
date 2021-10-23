@@ -1,0 +1,29 @@
+#masVendidos h3, h4{
+    text-align: center;
+}
+
+
+#masVendidos .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#masVendidos article{
+    margin: 15px;
+}
+
+#masVendidos img{
+    width: 100%;
+    height: 80%;
+    max-width: 260px;
+    max-height: 260px;
+}
+
+
+@media (min-width:1024px){
+    #masVendidos .contenedor{
+        flex-wrap: none;
+        width: auto;
+    }
+}

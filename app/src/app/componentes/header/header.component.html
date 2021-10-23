@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.component.css">
+</head>
+<body>
+    
+    <header>
+        <div class ="contenedor">
+            <h1 class="prueba"> <img src="../../../assets/logo_general.png" alt="Logo" height="40" width="40"> Dominio Digital WS</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            
+            <nav class="menu" routerLinkActive="active">
+                <a  [routerLink]="['/pagina-principal']">Home</a>
+                <a [routerLink]="['/pagina-principal#anclapromo']">Promociones</a>
+                <a [routerLink]="['/pagina-principal#categorias']">Categorías</a>
+                <a [routerLink]="['/pagina-principal#redes']">Contáctenos</a>
+                <a>
+                    <img src="../../../assets/buscar_admin.png" alt="" height="25" width="25">
+                </a>
+                <a [routerLink]="['/buy']">
+                    <img src="../../../assets/c_com_admin.png" alt="" height="25" width="25">
+                </a>
+                <a [routerLink]="['/login']">
+                    <img src="../../../assets/persona_admin.png" alt="" height="25" width="25">
+                </a>
+    
+            </nav>  
+        </div>
+    </header>
+
+</body>
+</html>

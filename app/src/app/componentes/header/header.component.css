@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(menu_index.css);
+@import url(banner_index.css);
+@import url(categorias_index.css);
+@import url(mas_vendidos_index.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #1E90FF;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1{
+    float: left;
+}
+
+header .contenedor{
+    display: table;
+}
+
+@media (min-width:768px){
+    .redes{
+        width: auto;
+    }
+
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+    
+}

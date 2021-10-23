@@ -1,0 +1,291 @@
+@import url(normalize.css);
+
+body{
+    background-color: white;
+}
+
+
+/*Encabezado*/
+
+.encabezado{
+    background-color: #1E90FF;
+    text-align: center;
+}
+.contenedor-encabezado{
+    width: 80%;
+    margin: auto;
+}
+
+.contenedor-encabezado-superior{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenido-imagen{
+    float: left;
+    margin: 20px;
+}
+.contenido-encabezado__logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+}
+
+.contenido-titulo{
+    float: left;
+    margin-top: 20px;
+    color: white;
+}
+
+.contenido-nav-principal{
+    display: inline-block;
+    float: left ;
+}
+
+UL{
+    list-style-type: none;
+    display:inline-block;
+}
+
+li{
+    float: left;
+    margin: 15px;
+    padding-top: 22px;
+}
+
+a{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*Cuerpo de la pagina*/
+
+.contenido-pagina{
+    margin: auto;
+    width: 55%;
+    height: 1500px;
+    display: flex;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+.contenido-pagina .contenido-botones{
+    width: 30%;
+    flex: 1;
+    min-width: 400px;
+}
+
+.contenido-pagina .contenido-botones .caja-botones-1{
+    width: 100%;
+    height: 50%;
+}
+
+
+.navegacion-botones-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.formulario-1 input{
+    margin: 10%;
+    border: darkgrey solid;
+    border-radius: 14%;
+    background-color: #2499e3;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+}
+
+.label-0{
+    color: white;
+    text-align: center;
+}
+
+.formulario-1 div{
+    background-color: #2499e3;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px #1a71a9;
+    position: relative;
+}
+
+.formulario-1 .div-0 input{
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.formulario-1 .div-1 input{
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-pagina .contenido-botones .caja-botones-2{
+    width: 100%;
+    height: 50%;
+}
+
+.navegacion-botones-2{
+   width: 100%;
+   height: auto;
+   text-align: center;
+}
+
+.formulario-2 div{
+    background-color: #2499e3;
+    margin: auto;
+    height: 20px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px #1a71a9;
+    position: relative;
+}
+
+.formulario-2 div input{
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.formulario-2 input{
+    color:white;
+    margin: 10%;
+    border: darkgrey solid;
+    border-radius: 5px;
+    background-color: #2499e3;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+
+}
+
+.caja-h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.contenido-pagina .contenido-imagenes{
+    width: 70%;
+    flex: 2;
+    min-width: 300px;
+    
+}
+
+.contenido-imagenes .caja-1{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px 0 0 0;
+}
+
+
+
+.contenido-imagenes .caja-2{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.contenido-imagenes .caja-3{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+.contenido-imagenes .caja-4{
+    width: 100%;
+    text-align: center;
+    
+}
+.contenido-imagenes .caja-5{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+@media screen and (max-width: 800px) {
+    .contenido-pagina{
+        width: auto;
+    }
+    .contenedor-encabezado{
+        width: auto;
+    }
+
+    .contenido-nav-imagenes{
+       transform: translateX(-100px);
+    }
+    .contenedor-encabezado-superior{
+        height: auto;
+        width: auto;
+    }
+    .contenido-titulo{
+        width: auto;
+    }
+
+    .contenido-botones{
+        height: 100%;  
+    }
+
+    .contenido-pagina{
+        background-color: white;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .contenido-imagen{
+        transform: translateX(120px);
+    }
+    .contenido-titulo{
+        width: 100%;
+    }
+
+    .contenido-nav-imagenes{
+        transform: translateX(-50px);
+    }
+    
+    .contenido-botones{
+        height: 100%;
+    }
+
+    .contenido-pagina{
+        background-color: white;
+    }
+    .contenido-pagina .contenido-botones .caja-botones-2{
+        height: auto;
+    }
+
+    .contenido-botones{
+        height: 50%;
+    }
+
+    .caja-botones-2{
+        position: absolute;
+        top: 1050px;
+    }
+}

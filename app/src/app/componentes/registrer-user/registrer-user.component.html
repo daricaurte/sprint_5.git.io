@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registrer-user.component.css">
+</head>
+<body>
+
+    <main>
+        <section id=banner>
+        <div class="signupSection">
+            <div class="info">
+                <h2>Imagen</h2>
+            </div>
+            <form action="#" method="POST" class="signupForm" name="signupform">
+                <h2>Registrate para seguir comprando</h2>
+                <ul class="noBullet">
+                    <li>
+                        <label for="nombre"></label>
+                        <input type="text" class="inputFields" id="nombre" name="nombre" placeholder="Nombre"
+                            value="" required />
+                    </li>
+                    <li>
+                        <label for="apellido"></label>
+                        <input type="apellido" class="inputFields" id="apellido" name="apellido" placeholder="Apellido"
+                            value="" required />
+                    </li>
+                    <li>
+                        <label for="email"></label>
+                        <input type="email" class="inputFields" id="email" name="email" placeholder="Correo electrónico" value=""
+                            required />
+                    </li>
+                    <li>
+                        <label for="tel"></label>
+                        <input type="tel" class="inputFields" id="tel" name="tel" placeholder="Número de teléfono" value=""
+                            required />
+                    </li>
+                    <li>
+                        <label for="nacimiento"></label>
+                        <input type="date" class="inputFields" id="nacimiento" name="nacimiento" placeholder="Fecha de nacimiento" value=""
+                            required />
+                    </li>
+                    <li>
+                        <label for="sexo"></label>
+                        <div class="box">
+                            <select>
+                                <option value="none" selected>Género</option>
+                                <option value="male">Masculino</option>
+                                <option value="female">Femenino</option>
+                                <option value="other">Otro</option>
+                             </select>   
+                        </div>    
+                    </li>
+                    <li>
+                        <label for="password"></label>
+                        <input type="password" class="inputFields" id="password" name="password" placeholder="Contraseña" value=""
+                            required />
+                    </li>
+                    <li>
+                        <label for="confirm-password"></label>
+                        <input type="password" class="inputFields" id="confirm-password" name="confirm-password" placeholder="Confirmar contraseña" value=""
+                            required />
+                    </li>
+                    <li id="center-btn">
+                        <input type="submit" id="join-btn" name="join" alt="Join" value="Registrarse">
+                    </li>
+                </ul>
+            </form>    
+        </div>
+        </section>
+    </main>
+
+
+</body>
+</html>

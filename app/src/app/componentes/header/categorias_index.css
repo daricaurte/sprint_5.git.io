@@ -1,0 +1,28 @@
+#categorias h3, h4{
+    text-align: center;
+}
+
+
+#categorias .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#categorias article{
+    margin: 15px;
+}
+
+#categorias img{
+    width: 100%;
+    height: 100%;
+    max-width: 260px;
+    max-height: 260px;
+}
+
+@media (min-width:1024px){
+    #categorias .contenedor{
+        flex-wrap: none;
+        width: auto;
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Dominio Digital</title>
+    <!-- Styles del login --> 
+    <link rel="stylesheet" href="./login.component.css">
+</head>
+    <body>
+    <div class="login-box">
+            <img src="../../../assets/logo_general.png" class="avatar" alt="Avatar Image">
+            <h1>Ingresar</h1>
+        <form >
+            <!-- Usuario INPUT -->
+            <label for="username">Usuario</label>
+            <input type="text" placeholder="Enter Username">
+            <!-- Contraseña INPUT -->
+            <label for="password">Contraseña</label>
+            <input type="password" placeholder="Enter Password">
+            <a href="../index.html">
+                <input type="submit" value="ENTRAR">
+            </a>
+            <a [routerLink]="['/Registrer-user']">Olvidaste tu contraseña?</a><br>
+            <a [routerLink]="['/Registrer-user']">No tengo una cuenta. Registrarse</a>
+        </form>
+    </div>
+    </body>
+</html>

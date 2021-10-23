@@ -1,0 +1,21 @@
+#opinionesClientes h3, h4{
+    text-align: center;
+}
+
+
+#opinionesClientes .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#opinionesClientes article{
+    margin: 15px;
+}
+
+#opinionesClientes img{
+    width: 100%;
+    height: 80%;
+    max-width: 260px;
+    max-height: 260px;
+}
